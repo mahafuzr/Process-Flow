@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research & Analysis Team Process Flow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .process-flow {
+            width: 90%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #eaf7fd;
+            transition: background-color 0.3s;
+        }
+        .step:hover {
+            background-color: #d4f0fa;
+        }
+        .step-number {
+            font-size: 20px;
+            font-weight: bold;
+            color: #007BFF;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #cce5ff;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .step-content {
+            flex: 1;
+        }
+        .step-content h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .step-content p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="process-flow">
+    <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+            <h3>Identify Research Requirements</h3>
+            <p>Define objectives, scope, and deliverables for the research project.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+            <h3>Data Collection</h3>
+            <p>Gather data from primary and secondary sources, such as surveys or databases.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+            <h3>Data Cleaning & Preparation</h3>
+            <p>Process and clean the collected data to ensure accuracy and consistency.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+            <h3>Data Analysis</h3>
+            <p>Apply statistical and analytical methods to derive insights from the data.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">5</div>
+        <div class="step-content">
+            <h3>Interpret Findings</h3>
+            <p>Review analytical results to form actionable insights.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">6</div>
+        <div class="step-content">
+            <h3>Report Generation</h3>
+            <p>Prepare reports, dashboards, or visualizations to present findings.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">7</div>
+        <div class="step-content">
+            <h3>Review & Feedback</h3>
+            <p>Gather feedback from stakeholders to refine and validate insights.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">8</div>
+        <div class="step-content">
+            <h3>Final Delivery</h3>
+            <p>Deliver the final report or analysis output to stakeholders.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
